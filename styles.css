@@ -1,0 +1,271 @@
+*{
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1;
+}
+
+.nav-logo-wrapper {
+    float: left;
+}
+
+.nav-menu {
+    float: right;
+    display: flex;
+    height: 100%;
+    width: 35%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-ele {
+    font-size: 1.15rem;
+    text-decoration: none;
+    font-family: "PT Sans";
+    color: black;
+}
+
+.main-banner {
+    height: 100%;
+    padding: 10px 10%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.main-banner-inner {
+    height: 100%; 
+    display: flex; 
+    justify-content: space-between;
+    height: 65%; 
+    margin-top: 100px
+}
+
+.main-banner-content {
+    width: 45%;
+}
+
+.about-me-banner-text {
+    font-family: "PT Sans";
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #181818;
+}
+
+.full-name-banner-text {
+    font-family: "Philosopher";
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 1rem;
+    color: #181818;
+}
+
+.about-me-short-banner-text {
+    font-family: "PT Sans";
+    font-size: 0.9rem;
+    color: #181818;
+    margin-bottom: 1rem;
+
+}
+
+.socials-wrapper {
+    display: flex;
+}
+
+.socials-logo-margin {
+    margin-right: 15px;
+}
+
+.services-banner {
+    height: 100%;
+    position: relative;
+}
+
+.services-banner-inner {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+}
+
+.services-box-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-box {
+    position: relative;
+    width: 25%;
+    overflow: hidden;
+    box-shadow: 7px 7px 10px -4px rgba(116,150,179,0.5);
+}
+
+.services-box-image {
+    position: absolute;
+    opacity: 0.75;
+    z-index: -1;
+}
+
+.services-text-wrapper {
+    height: 100%;
+    width: 100%;
+    padding: 10%
+}
+
+.services-text-header {
+    color: #181818;
+    font-family: "Philosopher";
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.services-text-content {
+    color: #181818;
+    font-family: "PT Sans";   
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.services-header {
+    font-family: "PT Sans";
+    text-align: center;
+    color: #93278f;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.services-sub-header {
+    font-family: "Philosopher";
+    color: #181818;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.services-text-prices {
+    margin-top: 15px;
+    color: #181818;
+    font-family: "Philosopher";
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.more-prices-header {
+    text-align: center;
+    color: #181818;
+    font-family: "Philosopher";
+    font-size: 1.5rem;
+}
+
+.more-prices-table-wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 100px 0px;
+}
+
+.more-prices-table {
+    border-collapse: collapse;
+    min-width: 500px;
+    max-width: 600px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    font-family: "PT Sans";
+}
+
+.disclaimer-banner {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10%;
+}
+
+.disclaimer-banner-content {
+    height: 300px;
+}
+
+
+.disclaimer-header {
+    font-family: "Philosopher";
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 1rem;
+    color: #181818;
+}
+
+.disclaimer-text {
+    font-family: "PT Sans";
+    font-size: 1.3rem;
+    color: #7B7B7C;
+    margin-bottom: 1rem;
+}
+
+
+.testimonials-header-wrapper {
+    padding-top: 200px;
+}
+
+.testimonials-sub-header {
+    color: #93278f;
+    font-size: 0.8rem;
+    font-family: "PT Sans";
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.testimonials-header {
+    font-family: "Philosopher";
+    color: #181818;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;   
+}
+
+.testimonials-banner {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px 100px;
+    row-gap: 20px;
+}
+
+.video-testimonials-header {
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Philosopher";
+    color: #181818;
+    font-size: 2rem;
+}
+
+.video-testimonials-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+}
